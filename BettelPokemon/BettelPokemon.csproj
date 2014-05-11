@@ -1,0 +1,1673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA75F433-BBED-45AD-9D3F-19FAFB9DC9FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BettelPokemon</RootNamespace>
+    <AssemblyName>BettelPokemon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animations.cs" />
+    <Compile Include="Attack.cs" />
+    <Compile Include="Bettel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bettel2.designer.cs">
+      <DependentUpon>Bettel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coins.cs" />
+    <Compile Include="FlyingPokemon.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpCenter.designer.cs">
+      <DependentUpon>HelpCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelKlasa.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Pokeball.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="PokemonItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trainer.cs" />
+    <Compile Include="WinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm.designer.cs" />
+    <Compile Include="WinForm1.Designer.cs" />
+    <EmbeddedResource Include="Bettel2.resx">
+      <DependentUpon>Bettel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpCenter.resx">
+      <DependentUpon>HelpCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WinForm.resx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10323041_4109402988655_1388422106_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerialAce %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerialAce %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aerialAce %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aggron %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\altaria %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arena1 %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Articuno %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ash_Ketchum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attrack %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attrack %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attrack %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auroras %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auroras %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auroras %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auroras %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auroras %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blast_burn_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bug Bite %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bug Bite %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bug.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunneldy %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burmy %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cespin_000.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cespin_003.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cespin_006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cespin_007.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cespin_009.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chalange2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charizard %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheren_large1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chespinn %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chespinn %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chespinn %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chespinn %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chespinn %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrunch %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrunch %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrunch %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrunch %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colorasss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combee %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combee %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combee %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cover2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\croagunk %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedene %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedene %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedene %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedene %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dedene %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delphox %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delphox %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delphox %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delphox %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delphox %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deskkk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-bubble-rectangle-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dig %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonclaw %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonclaw %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonclaw %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragonclaw %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electric.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escavalier %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escavalier %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escavalier %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escavalier %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escavalier %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fairy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fennekin %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fennekin %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fennekin %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fennekin %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fighting.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireblast %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireblast %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireblast %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireblast %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firework %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firework %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firework %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floaete %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floaete %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floaete %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floaete %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floaete %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flying.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_001.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_002.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_003.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_005.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_008.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_009.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_021.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_022.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frame_023.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froakie %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froakie %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froakie %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froakie %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\froakie %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gardevoir %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodra %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorgeist %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyaradis %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawlucha %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawlucha %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawlucha %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hawlucha %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpcenter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howtoplay.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hudroCanon %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hudroCanon %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hudroCanon %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hudroCanon %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hudroCanon %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %2810%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydreigon %2812%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydropump %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydropump %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydropump %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hydropump %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Isshu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klefki %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klefki %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klefki %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klefki %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klefki %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kopceHeal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kupi1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafs %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafs %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafs %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafs %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafstormg %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leafstormg %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luxary %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mud_shot %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mud_shot %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mud_shot %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mud_shot %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mud_shot %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudsot %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudsot %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudsot %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mudsot %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mugshot21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noivren %2810%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overheat %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overheat %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overheat %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pangoro %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pangoro %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pangoro %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pangoro %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pocetok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poison.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokTrouble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PokTrouble2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prof.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybeam %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybeam %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybeam %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybomb %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybomb %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psybomb %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psychic.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punch %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punch %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punch %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroar %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroar %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroar %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroar %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroar %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroarr %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroarr %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroarr %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroarr %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyroarr %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rockSmash %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rockSmash %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rockSmash %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rockSmash %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rosa_OD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotom %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaryface %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaryface %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaryface %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowball %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowball %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowball %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowball %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shadowball %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal Beam %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal Beam %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoochum %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowflakes %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowflakes %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowflakes %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowstorm %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowstorm %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowstorm %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spewpa %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashcut %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritzee %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprudel %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprudel %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprudel %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprudel %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\srednaGirl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\srednaMale.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stun Spore %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stun Spore %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stun Spore %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surf %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surf %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surf %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surf %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_001 %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_001 %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_001 %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_001 %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_001 %2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tackle %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tackle %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\talk1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\talk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainersmall.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trevenant %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trevenant %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trevenant %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trevenant %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trevenant %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tundershock %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tundershock %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tundershock %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tutorial4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tyranturum %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vanillite %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\violet_button_thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivilion %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivilion %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivilion %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivilion %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivilion %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcarona %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerneas %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2810%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2812%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2813%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2814%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2815%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2816%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2817%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2818%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yveltal %2819%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorokak %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorokak %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorokak %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorokak %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorokak %285%29.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

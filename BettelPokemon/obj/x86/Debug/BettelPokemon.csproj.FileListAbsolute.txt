@@ -1,0 +1,24 @@
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.Bettel2.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.Form2.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.Form3.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.HelpCenter.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.Properties.Resources.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.WinForm.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.csproj.GenerateResource.Cache
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\bin\Debug\BettelPokemon.exe
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\bin\Debug\BettelPokemon.pdb
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\Pokemon_Trouble.Form1.resources
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.exe
+C:\Users\Кристијан Ласковски\AppData\Local\Temporary Projects\BettelPokemon\obj\x86\Debug\BettelPokemon.pdb
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.exe
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.pdb
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\bin\Debug\BettelPokemon.exe
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\bin\Debug\BettelPokemon.pdb
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.Bettel2.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\Pokemon_Trouble.Form1.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.Form2.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.Form3.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.HelpCenter.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.Properties.Resources.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.WinForm.resources
+C:\Users\Кристијан Ласковски\Documents\Visual Studio 2010\Projects\BettelPokemon\BettelPokemon\obj\x86\Debug\BettelPokemon.csproj.GenerateResource.Cache
