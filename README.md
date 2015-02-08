@@ -15,10 +15,10 @@ Pokemon. Нашата идеа е да претставиме дел од мож
 замисла за изгледот на апликацијата.</p>
 <ul>
 <li>Главниот екран: <br /> 
-<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/10330403_864528800240886_5262923318218405712_n.jpg" alt="HowToPlay Screen"/> </li>
+<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10171007_863618393665260_9047700993413522808_n.jpg?oh=75be23e64f8e6cf7103f16dd82e1f2ec&oe=5552ADB3&__gda__=1431101754_8e72a36d464a2a15e93203087b48f9bf" alt="HowToPlay Screen"/> </li>
 <li>
 How to play  екранот во кој се објаснува како се игра играта : <br /> 
-<img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-frc1/t1.0-9/10255131_863620223665077_8567593929553891442_n.jpg" alt="Main Screen" /> 
+<img src="https://scontent-b-vie.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10259451_863614503665649_7462720126849326976_n.jpg?oh=088b69c4303ad13ac58d415d38fa7fae&oe=5558A9B1" alt="Main Screen" /> 
 </li>
 
 <li>
@@ -29,13 +29,13 @@ How to play  екранот во кој се објаснува како се и
 
 <li>
 Избор на пол:<br />
-<img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-frc3/t1.0-9/10269382_863626996997733_7102921837685817971_n.jpg" alt="Main Screen" height="300"/> 
+<img src="https://scontent-a-vie.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10269382_863626996997733_7102921837685817971_n.jpg?oh=634b5467fe63a7d948836754b4464370&oe=55567342" height="300"/> 
 </li>
 
 <li>
 
 Внесување име :<br/>
-<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/10173757_863626993664400_539012307662050299_n.jpg" alt="Main Screen" height="300"/> 
+<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10173757_863626993664400_539012307662050299_n.jpg?oh=bd18b20366d547fb2d8fec648fc704de&oe=554D4CC0&__gda__=1431729040_8c76836ea21ee8ca445f98b48e7534a7" alt="Main Screen" height="300"/> 
 
 </li>
 
@@ -43,7 +43,7 @@ How to play  екранот во кој се објаснува како се и
 <li>
 
 Избирање на почетен Pokemon:<br/>
-<img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/q71/s720x720/10330303_863618396998593_8921466534215009242_n.jpg" alt="Main Screen" height="300"/> 
+<img src="https://www.facebook.com/photo.php?fbid=863618396998593&set=pb.100000513235553.-2207520000.1423358726.&type=3&theater" alt="Main Screen" height="300"/> 
 
 </li>
 
@@ -100,7 +100,7 @@ Attack.cs
 <li>
 Тебела која кажува колку damage  ќе се изврши при битката на дава различни Pokemon:
 </li>
-<img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/10341837_863647500329016_2119377125619475598_n.jpg" alt="Main Screen" /> 
+<img src="https://scontent-a-vie.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10341837_863647500329016_2119377125619475598_n.jpg?oh=9f89bfbb467beb798de7e2c099d875f4&oe=55565CD0" alt="Main Screen" /> 
 </ul>
 
 </p>
@@ -131,7 +131,7 @@ Trainer.cs
 </li>
 
 <li>
-<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/t1.0-9/10329296_863614440332322_6155092039053541588_n.jpg" alt="Main Screen" /> 
+<img src="https://www.facebook.com/photo.php?fbid=863614490332317&set=pb.100000513235553.-2207520000.1423358726.&type=3&theater" alt="Main Screen" /> 
 
 </li>
 </ul>
@@ -147,7 +147,7 @@ Battel2.cs
 <li>
 Избирање на напад :</li>
 <li>
-<img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn1/t1.0-9/10341659_863614420332324_2263674632600819810_n.jpg" alt="Main Screen" /> 
+<img src="https://www.facebook.com/photo.php?fbid=863614420332324&set=pb.100000513235553.-2207520000.1423358726.&type=3&theater" alt="Main Screen" /> 
 </li>
 
 <br>
@@ -155,7 +155,7 @@ Battel2.cs
 
 Приказ на твојот напад :</li>
 <li>
-<img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/10320490_863614426998990_9022204208966894112_n.jpg" alt="Main Screen" /> 
+<img src="https://www.facebook.com/photo.php?fbid=863614426998990&set=pb.100000513235553.-2207520000.1423358726.&type=3&theater" alt="Main Screen" /> 
 
 </li>
 
@@ -234,7 +234,7 @@ Battel2.cs
 </li>
 <li>
 
-<img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-frc3/t1.0-9/10177922_863614460332320_3800330579748136861_n.jpg" alt="Main Screen" /> 
+<img src="https://scontent-a-vie.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10177922_863614460332320_3800330579748136861_n.jpg?oh=a36d5d58c94b9bef66a1451685d35b1c&oe=55558798" alt="Main Screen" /> 
 </li>
 
 <li>
@@ -243,7 +243,7 @@ Battel2.cs
 
 </li>
 
-<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash4/t1.0-9/10274225_863886803638419_505936988397338532_n.jpg" alt="Main Screen" /> 
+<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10274225_863886803638419_505936988397338532_n.jpg?oh=c84afe6464111b3fe69f324ea604fd50&oe=5555EB4A&__gda__=1432238801_b6a89c4eabeb2387fca3b7e658557fbe" alt="Main Screen" /> 
 </ul>
 
 
@@ -271,7 +271,7 @@ Pokemon Trouble-боунс игра</b>
     </li>
     
     <li>
-    <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/10259929_863892236971209_7490066167148740756_n.jpg" alt="Main Screen" /> 
+    <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10259929_863892236971209_7490066167148740756_n.jpg?oh=4170aa1ecea9ee02c590042749603a50&oe=55527137&__gda__=1432780222_915a56ccf5ce04f98e40aae91e61fd82" alt="Main Screen" /> 
     </li>
     
     <li>
@@ -282,7 +282,7 @@ Pokemon Trouble-боунс игра</b>
     </li>
     <li>
     
-        <img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/10336804_863892250304541_1266176857296768015_n.jpg" alt="Main Screen" /> 
+        <img src="https://scontent-a-vie.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10336804_863892250304541_1266176857296768015_n.jpg?oh=1e95379872ab61d9ff06495c7e69c973&oe=554A5C56" alt="Main Screen" /> 
     
     </li>
     
