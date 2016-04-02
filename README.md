@@ -1,49 +1,28 @@
 Pokemon
 =======
 <p>
-Сите ние  уште од мали нозе сме играле игри најпрвин на онаа малата игричка наречена Тетрис. Но подоцна излезе нешто што го нарекуваа Nintendo. Му се воодушевувавме. Уште повеќе подоцна кога ги игравме игрите на него. Е оттука прозлегува идејата за нашата семинарска работа која е да направиме апликација која ќе ја
-имплементира една од најпознатите игри за Nintendo 3DS, а тоа е играта 
-Pokemon. Нашата идеа е да претставиме дел од можностите и функционалностите
-во играта Pokemon, односно ќе бидат имплементирани можноста за креирање на 
-сопствен аватар, избирање на сопствен почетен Pokemon, едноставна навигација
-низ мапата при што е овозможена битка помеѓу Pokemon од различни области,
-купување на нови Pokemon кои ќе ти бидат од корист за победување на лошите Pokemon
-од наредните стази кои се се потешки се победување. Дополнително 
-ќе имаме и мала игра Pokemon Trouble наменета за собирање на coins, односно пари, 
-се со цел да се олесни купувањето на појак Pokemon.
-Идеjата за играта ја измисливме сами, направивме целосна 
-замисла за изгледот на апликацијата.</p>
+Unsere Idee war einige der Features und Funktionalitäten von den Spiel Pokemon zu präsentieren, welches Ihnen die Möglichkeit gibt einen Avatar yu kriren, ihre eigenen ursprünglichen Pokemon Auswahl, einfache Navigation auf die Karte und die Möglichkeit Schlachten mit anderen Pokemons zwischen den verschiedenen Bereichen zu tun, neue Pokemon zu kaufen und viles Mehr. 
+</p>
 <ul>
-<li>Главниот екран: <br /> 
-<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p9.PNG" alt="HowToPlay Screen"/> </li>
 <li>
-How to play  екранот во кој се објаснува како се игра играта : <br /> 
-<img src="https://scontent-b-vie.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10259451_863614503665649_7462720126849326976_n.jpg?oh=088b69c4303ad13ac58d415d38fa7fae&oe=5558A9B1" alt="Main Screen" /> 
+Der Hauptbildschirm : <br /> 
+<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p1.PNG" alt="HowToPlay Screen"/> </li>
+<li>
+ Der "How to play" schirm wo gezeigt wird wie mann spielt:  <br /> 
+<img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p2.PNG" alt="Main Screen" /> 
 </li>
 
 <li>
-При изборот на нова игра потребно е да се избери дали ќе играш како Boy / Girl , да внесиш твое име , потоа од листата на  три почетни Pokemon  да избериш еден , а послетоа се започнува со играта : <br /> 
-
-
+Wenn du ein neues Spiel startest dann must du auswahlen ob du mit ein jungen oder ein Mädchen spielst, dein namen eintragen und dein ursprünglichen Pokemon auswählen. <br /> 
 </li>
 
 <li>
-Избор на пол:<br />
-<img src="https://scontent-a-vie.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10269382_863626996997733_7102921837685817971_n.jpg?oh=634b5467fe63a7d948836754b4464370&oe=55567342" height="300"/> 
+Geschlecht auswählen:<br />
+<img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p3.PNG" height="300"/> 
 </li>
-
 <li>
-
-Внесување име :<br/>
-<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10173757_863626993664400_539012307662050299_n.jpg?oh=bd18b20366d547fb2d8fec648fc704de&oe=554D4CC0&__gda__=1431729040_8c76836ea21ee8ca445f98b48e7534a7" alt="Main Screen" height="300"/> 
-
-</li>
-
-
-<li>
-
-Избирање на почетен Pokemon:<br/>
-<img src="https://www.facebook.com/photo.php?fbid=863618396998593&set=pb.100000513235553.-2207520000.1423358726.&type=3&theater" alt="Main Screen" height="300"/> 
+Ursprünglichen Pokemon auswählen:<br/>
+<img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p4.PNG" alt="Main Screen" height="300"/> 
 
 </li>
 
