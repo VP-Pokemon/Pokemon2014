@@ -15,7 +15,7 @@ Pokemon. Нашата идеа е да претставиме дел од мож
 замисла за изгледот на апликацијата.</p>
 <ul>
 <li>Главниот екран: <br /> 
-<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10171007_863618393665260_9047700993413522808_n.jpg?oh=75be23e64f8e6cf7103f16dd82e1f2ec&oe=5552ADB3&__gda__=1431101754_8e72a36d464a2a15e93203087b48f9bf" alt="HowToPlay Screen"/> </li>
+<img src="https://onedrive.live.com/?cid=0B89C97770F9A44F&id=B89C97770F9A44F%211317&parId=B89C97770F9A44F%21227&o=OneUp" alt="HowToPlay Screen"/> </li>
 <li>
 How to play  екранот во кој се објаснува како се игра играта : <br /> 
 <img src="https://scontent-b-vie.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10259451_863614503665649_7462720126849326976_n.jpg?oh=088b69c4303ad13ac58d415d38fa7fae&oe=5558A9B1" alt="Main Screen" /> 
