@@ -15,7 +15,7 @@ Pokemon. Нашата идеа е да претставиме дел од мож
 замисла за изгледот на апликацијата.</p>
 <ul>
 <li>Главниот екран: <br /> 
-<img src="https://ywmjda.dm2301.livefilestore.com/y3pPHNizPHzf2mIJbUXRaFf5E43VsCTYPngMuRqLKFeAbmcaVo2nI3a1-h_aKi11s6aK3dbOzJY6TPsG4ii5uh30VzSisFyrZ1Zsvhbq_-XwN3MVZxPGWItvpp6o9wFSD83HOZkkdCgCcP3mCPP2gcQWP9aguuvGw8potGrjJFQDOg/p1.PNG?psid=1" alt="HowToPlay Screen"/> </li>
+<img src="http://kristijanlasko.deviantart.com/art/Natsu-Dragneel-597892587" alt="HowToPlay Screen"/> </li>
 <li>
 How to play  екранот во кој се објаснува како се игра играта : <br /> 
 <img src="https://scontent-b-vie.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10259451_863614503665649_7462720126849326976_n.jpg?oh=088b69c4303ad13ac58d415d38fa7fae&oe=5558A9B1" alt="Main Screen" /> 
