@@ -74,6 +74,12 @@ Attack.cs
 <p>
 The next class is for the Attacks of the pokemons and she contains properties for the name of the attack, type : Normal, Bug, Dark, Dragon, Electric, Fairy, Fighting, Fire, Flying, Ghost, Grass, Ground, Ice, Poison, Psychic, Rock, Steel and Water, which will play a important role while battle between two different types of pokemons. The next property is the Damage property, Effect property which gives inforamtions about he effect of the attack, a boolean property oponent, and the last property is the animation property which is used for the animation of the attack.
 <ul>
+<li>
+A pokemon atacking another one<br>
+<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p9.PNG" alt="Pokeshop" /> <br>
+<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p10.PNG" alt="Pokeshop" /> 
+
+</li>
 </ul>
 
 </p>
@@ -90,7 +96,7 @@ The next class is the Pokemon class, the most important class, because with this
 <li>
  Pokemon Shop place where you can buy a pokemon:
 </li>
-<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/10309176_863614470332319_2260707826821677264_n.jpg?oh=427e8907d0915af5b74cd46b79f3756d&oe=5407123A&__gda__=1409951786_1377f9c1dac9c31e6d66f76f1642a0d8" alt="Main Screen" /> 
+<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p6.PNG" alt="Pokeshop" /> 
 </ul>
 
 
