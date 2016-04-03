@@ -2,26 +2,29 @@ Pokemon
 =======
 <p>
 Unsere Idee war einige der Features und Funktionalitäten von den Spiel Pokemon zu präsentieren, welches Ihnen die Möglichkeit gibt einen Avatar yu kriren, ihre eigenen ursprünglichen Pokemon Auswahl, einfache Navigation auf die Karte und die Möglichkeit Schlachten mit anderen Pokemons zwischen den verschiedenen Bereichen zu tun, neue Pokemon zu kaufen und viles Mehr. 
+
+
+Our idea in this project was to create a simple pokemon game using C#, and present some of the features and functionalities, like creating your own avatar, choosing your starter pokemon and simple navigation through the world map, where you can battle aginst other pokemons and collect badges for every won match, buying strong pokemons from the pokemon shop which will be neaded for completing the game. When you start the game the main screen apears where you can choose if you want to start a new game, or you want to continue to play where from your last saved game, or you don't know how to play and see the "How to play screen".
 </p>
 <ul>
 <li>
-Der Hauptbildschirm : <br /> 
+the main screen: <br /> 
 <img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p1.PNG" alt="HowToPlay Screen"/> </li>
 <li>
- Der "How to play" schirm wo gezeigt wird wie mann spielt:  <br /> 
+The "How to play" screen weher you can learn hot to play the game :  <br /> 
 <img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p2.PNG" alt="Main Screen" /> 
 </li>
 
 <li>
-Wenn du ein neues Spiel startest dann must du auswahlen ob du mit ein jungen oder ein Mädchen spielst, dein namen eintragen und dein ursprünglichen Pokemon auswählen. <br /> 
+If you choose to start a new gamet then you need to insert your name , to choose if you want to play with a girl or a boy, and then select your first starter pokemon. <br /> 
 </li>
 
 <li>
-Geschlecht auswählen:<br />
+choosing a gender:<br />
 <img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p3.PNG" height="300"/> 
 </li>
 <li>
-Ursprünglichen Pokemon auswählen:<br/>
+Starter pokemons:<br/>
 <img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p4.PNG" alt="Main Screen" height="300"/> 
 
 </li>
@@ -31,19 +34,13 @@ Ursprünglichen Pokemon auswählen:<br/>
 
 </ul>
 <p>
-Во кодот има имплементации на класи за Pokemon, Avatar(Trainer), Animations, Attack, FlyingPokemon.
+In this projects there are codes for the following classes: Pokemon, Avatar(Trainer), Animations, Attack, FlyingPokemon.
 </p>
 
 Animations.cs
 ======
 <p>
-Класата Animations е основната класа која ја користиме за доловување на анимацијата за движењата на Pokemoni-те, како и нивните меѓусебни напаѓања. Таа се состои од поле од Bitmaps и нивни редни броеви. За имплементација на овие движења го користиме методот GiveNextImage() со кој редоследно се исцртуваат сликите.
-
-
-
-
-
-
+The Animation class is the main class that we use to mke the animation and moverments of the pokemons and to display the attacks of the pokemons. Every animation contains a array of Bitmaps. To implement the moverments we use the method GiveNextImage() with which every pictures is drawn on the screen.
 </p>
 
 
