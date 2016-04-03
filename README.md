@@ -25,7 +25,11 @@ Starter pokemons:<br/>
 <img src="https://github.com/VP-Pokemon/Pokemon2014/blob/master/p4.PNG" alt="Main Screen" height="300"/> 
 
 </li>
+<li>
+The World map:<br/>
+<img src="https://raw.githubusercontent.com/VP-Pokemon/Pokemon2014/master/p5.PNG" alt="Main Screen" height="500"/> 
 
+</li>
 
 
 
