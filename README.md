@@ -105,11 +105,11 @@ The next class is the Pokemon class, the most important class, because with this
 Trainer.cs
 =====
 
-Следната класа Trainer претставува класа за Аватарот. Нејзини параметри се :  Name - име на аватарот, Gender – машки или женски, кој се избира на почетокот на играта, Money – парите со кои располагаме во моментот. Потоа, оваа класа има четири параметри од типот Image. Аватарот има листа од класата Pokemon, така што секој trainer може да има колку што сака Pokemoni и какви што сака. И последниот параметар е листа од тип bool – Leveli кој ни покажува кои стази ти има отворено карактерот, односно на кои места го има победено противникот
+The next class ist the class for the player, or the Trainer class with with the following properties: name,Gender,money,4 Images and a list of boolean properties for the levels that he has cleared. 
 
 <ul>
 <li>
-Ова претставува главниот прозорец каде што се прикаживаат информациите за твојот карактер како и мапата со левелите каде што треба да се одржи битката помеѓу Pokemoni,  притоа во играта оставивме повеќето левели да се отворени , а само 5 левели се заклучени  :
+This is the screen where you can see the plaer, choose a pokemon, see the badges that you have earned, money balance and then select a level and play:
 </li>
 
 <li>
